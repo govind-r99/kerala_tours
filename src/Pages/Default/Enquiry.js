@@ -1,8 +1,11 @@
 import React from 'react'
+import Header from '../../Layout/Header'
+import Footer from '../../Layout/Footer'
 
 function Enquiry() {
     return (
         <section className="section-margin">
+            <Header/>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 col-xl-5 align-self-center mb-5 mb-lg-0">
@@ -69,6 +72,7 @@ function Enquiry() {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </section>
     )
 }
